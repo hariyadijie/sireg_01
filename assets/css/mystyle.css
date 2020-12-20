@@ -1,0 +1,46 @@
+.main-header .logo {
+	font-size: 15px;
+	line-height: 50px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.kiri {
+	background-image: url("<?= base_url();?>assets/dist/img/photo1.png");
+	background-size: cover;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.kanan {
+	background-image: linear-gradient(to top right, green, rgba(255, 155, 255, 0.1));
+	background-color: transparent;
+	height: 100%;
+	padding-top: 5%;
+}
+
+.container-login {
+	padding: 10%;
+	padding-top: 0;
+}
+
+.login-logo {
+	padding-top: 5%;
+
+}
+
+/* .logo {
+        box-shadow: 1px 5px 10px 2px black;
+
+    } */
+
+.a {
+	color: #01111a;
+}
+
+.h5 {
+	margin-left: 8rem;
+	margin-top: -3rem;
+}
