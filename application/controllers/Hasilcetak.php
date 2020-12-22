@@ -18,7 +18,7 @@ class Hasilcetak extends CI_Controller
 
     public function index()
     {
-        $data['title'] = 'Hasil Register/Cetak';
+        $data['title'] = 'Registrasi Hasil Cetak KTP Elektronik';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Hasilcetak' => '',
@@ -52,7 +52,7 @@ class Hasilcetak extends CI_Controller
             'ket' => $row->ket,
             'catatan' => $row->catatan,
             );
-        $data['title'] = 'Hasil Register/Cetak';
+        $data['title'] = 'Registrasi Hasil Cetak KTP Elektronik';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',
@@ -84,7 +84,7 @@ class Hasilcetak extends CI_Controller
             'ket' => set_value('ket'),
             'catatan' => set_value('catatan'),
         );
-        $data['title'] = 'Hasil Register/Cetak';
+        $data['title'] = 'Registrasi Hasil Cetak KTP Elektronik';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',
@@ -152,7 +152,7 @@ class Hasilcetak extends CI_Controller
                 'ket'           => set_value('ket', $row->ket),
                 'catatan'       => set_value('catatan', $row->catatan),
                 );
-        $data['title'] = 'Hasil Register/Cetak';
+        $data['title'] = 'Registrasi Hasil Cetak KTP Elektronik';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',

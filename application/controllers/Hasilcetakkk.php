@@ -18,7 +18,7 @@ class Hasilcetakkk extends CI_Controller
 
     public function index()
     {
-        $data['title'] = 'Hasilcetakkk';
+        $data['title'] = 'Registrasi Hasil Cetak Kartu Keluarga';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Hasilcetakkk' => '',
@@ -54,7 +54,7 @@ class Hasilcetakkk extends CI_Controller
 		'ket' => $row->ket,
 		'catatan' => $row->catatan,
 	    );
-        $data['title'] = 'Hasilcetakkk';
+        $data['title'] = 'Registrasi Hasil Cetak Kartu Keluarga';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',
@@ -71,7 +71,7 @@ class Hasilcetakkk extends CI_Controller
     public function create() 
     {
         $data = array(
-            'button' => 'Create',
+            'button' => 'Input',
             'action' => site_url('hasilcetakkk/create_action'),
 	    'id_hasilcetakkk' => set_value('id_hasilcetakkk'),
 	    'nik' => set_value('nik'),
@@ -89,7 +89,7 @@ class Hasilcetakkk extends CI_Controller
 	    'ket' => set_value('ket'),
 	    'catatan' => set_value('catatan'),
 	);
-        $data['title'] = 'Hasilcetakkk';
+        $data['title'] = 'Registrasi Hasil Cetak Kartu Keluarga';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',
@@ -150,7 +150,7 @@ class Hasilcetakkk extends CI_Controller
 		'ket' => set_value('ket', $row->ket),
 		'catatan' => set_value('catatan', $row->catatan),
 	    );
-            $data['title'] = 'Hasilcetakkk';
+            $data['title'] = 'Registrasi Hasil Cetak Kartu Keluarga';
         $data['subtitle'] = '';
         $data['crumb'] = [
             'Dashboard' => '',
